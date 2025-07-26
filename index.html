@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nart Ramadan Kataz - Full Stack Developer Portfolio. Experienced in HTML, CSS, JavaScript, C, C++, C#, and Arduino development.">
+    <meta name="keywords" content="Full Stack Developer, Web Development, JavaScript, C Programming, Arduino, Portfolio">
+    <meta name="author" content="Nart Ramadan Kataz">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nartramadan.github.io/resume/">
+    <meta property="og:title" content="Nart Ramadan Kataz - Full Stack Developer">
+    <meta property="og:description" content="Portfolio of Nart Ramadan Kataz, a passionate Full Stack Developer specializing in web development and programming.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nartramadan.github.io/resume/">
+    <meta property="twitter:title" content="Nart Ramadan Kataz - Full Stack Developer">
+    <meta property="twitter:description" content="Portfolio of Nart Ramadan Kataz, a passionate Full Stack Developer specializing in web development and programming.">
+    
+    <title>Nart Ramadan Kataz - Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- קישור לקובץ CSS החיצוני -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- חלקיקים מרחפים ברקע -->
+<div class="particles" id="particles"></div>
+
+<!-- כותרת עליונה עם שם ותפקיד -->
+<div class="header">
+    <div class="profile-container">
+        <div class="profile-image">👨‍💻</div>
+        <h1>Nart Ramadan Kataz</h1>
+        <h2>Full Stack Developer</h2>
+        <div class="status-badge">Available for Work</div>
+        <div class="header-actions">
+            <button class="download-btn" onclick="downloadResume()">
+                <span>📄</span> Download PDF
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- מכולה ראשית עם שתי עמודות -->
+<div class="main-container">
+    <!-- עמודה שמאלית - יצירת קשר וכישורים -->
+    <div class="left-column">
+        <!-- סעיף יצירת קשר -->
+        <div class="contact">
+            <h3>Contact:</h3>
+            <p>📧 kataz91@gmail.com</p>
+            <p>📱 053-430-3700</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nart-ramadan-kataz/" target="_blank" class="social-link">
+                    <span>💼</span> LinkedIn
+                </a>
+                <a href="https://github.com/NartRamadan" target="_blank" class="social-link">
+                    <span>🐙</span> GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- סעיף כישורים -->
+        <div class="skills">
+            <h3>Skills:</h3>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>HTML/CSS/JS</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-skill="80"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>C Programming</span>
+                    <span>70%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-skill="70"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>C++</span>
+                    <span>65%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-skill="65"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>C#</span>
+                    <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-skill="60"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Arduino</span>
+                    <span>55%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-skill="55"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- עמודה ימנית - אודות וניסיון -->
+    <div class="right-column">
+        <!-- סעיף אודותיי -->
+        <div class="about">
+            <h3>About Me:</h3>
+            <p>I am a second-year student specializing in Full Stack development.</p>
+        </div>
+
+        <!-- סעיף פרויקטים -->
+        <div class="projects">
+            <h3>My Projects:</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎮</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">Memory Game</div>
+                        <div class="project-description">
+                            Interactive memory card game built with vanilla JavaScript as part of
+                            web development studies. Features timer and score tracking.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/NartRamadan" target="_blank" class="project-link">
+                                <span>👨‍💻</span> GitHub Profile
+                            </a>
+                            <a href="https://github.com/NartRamadan" target="_blank" class="project-link demo-link">
+                                <span>🌐</span> View Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🔧</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">Arduino Projects</div>
+                        <div class="project-description">
+                            Hardware programming projects using Arduino. Learning embedded systems
+                            and IoT basics as part of engineering curriculum.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">IoT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/NartRamadan/arduino-FocusGame" target="_blank" class="project-link">
+                                <span>👨‍💻</span> Focus Game
+                            </a>
+                            <a href="https://github.com/NartRamadan/Arduino-JoyStickGame" target="_blank" class="project-link demo-link">
+                                <span>🔧</span> JoyStick Game
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">💻</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">C/C++ Programming</div>
+                        <div class="project-description">
+                            Foundation programming projects in C, C++, and C#. Building problem-solving
+                            skills and understanding of computer science fundamentals.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C Programming</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/NartRamadan/BookTracker" target="_blank" class="project-link">
+                                <span>👨‍💻</span> Book Tracker
+                            </a>
+                            <a href="https://github.com/NartRamadan/blood_pressure_tracker_final" target="_blank" class="project-link demo-link">
+                                <span>📚</span> BP Tracker
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- סעיף ניסיון בעבודה -->
+        <div class="experience">
+            <h3>Education & Experience:</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <div class="job-title">Software Engineering Student</div>
+                        <div class="company-name">Second Year - Advanced Programming</div>
+                        <div class="job-description">
+                            Currently learning React, advanced web development, and preparing for industry projects.
+                            Expanding knowledge in modern frameworks and development tools.
+                        </div>
+                        <div class="job-skills">
+                            <span class="skill-tag">React (Learning)</span>
+                            <span class="skill-tag">Advanced Web Dev</span>
+                            <span class="skill-tag">Project Planning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <div class="job-title">Programming Foundations</div>
+                        <div class="company-name">First Year Studies</div>
+                        <div class="job-description">
+                            Learned programming fundamentals with C, C++, C#. Built solid foundation in
+                            computer science concepts and problem-solving skills. Also studied entrepreneurship.
+                        </div>
+                        <div class="job-skills">
+                            <span class="skill-tag">C/C++/C#</span>
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">HTML/CSS/JS</span>
+                            <span class="skill-tag">Entrepreneurship</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <div class="job-title">Programming Introduction</div>
+                        <div class="company-name">MIT Scratch & Self-Learning</div>
+                        <div class="job-description">
+                            Started programming journey with MIT Scratch to understand programming logic.
+                            Discovered passion for coding and decided to pursue software engineering.
+                        </div>
+                        <div class="job-skills">
+                            <span class="skill-tag">MIT Scratch</span>
+                            <span class="skill-tag">Logic Building</span>
+                            <span class="skill-tag">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- קישור לקובץ JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
