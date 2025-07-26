@@ -713,6 +713,21 @@ h3::before {
     font-size: 0.9em; /* קטן יותר למובייל */
 }
 
+/* עיצוב קישורי אימייל וטלפון */
+.email-link, .phone-link {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.email-link:hover, .phone-link:hover {
+    background: rgba(52, 152, 219, 0.1);
+    color: #3498db;
+    transform: translateX(3px);
+}
+
 /* עיצוב קישורים חברתיים */
 .social-links {
     display: flex;

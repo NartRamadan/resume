@@ -208,12 +208,8 @@ function createContactForm() {
     // מוסיף את החלון לגוף העמוד
     document.body.appendChild(overlay);
 
-    // מוסיף אירועי לחיצה לכל פרטי יצירת הקשר
-    document.querySelectorAll('.contact p').forEach(item => {
-        item.addEventListener('click', () => {
-            overlay.classList.add('active'); // מפעיל את החלון
-        });
-    });
+    // הסרנו את הפופ-אפ הישן - עכשיו הקישורים עובדים ישירות
+    // האימייל והטלפון עובדים עם mailto: ו-tel:
 
     // אירועי סגירת הטופס
     overlay.addEventListener('click', (e) => {
