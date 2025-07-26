@@ -69,11 +69,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 35px; /* גודל אייקון קטן יותר */
     color: white;
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     transition: all 0.3s ease;
     animation: profilePulse 3s ease-in-out infinite;
+    overflow: hidden; /* מסתיר חלקים שיוצאים מהעיגול */
+}
+
+/* עיצוב לתמונה האמיתית */
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* מכסה את כל השטח */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* גיבוי אם אין תמונה */
+.profile-image:not(:has(img)) {
+    font-size: 24px; /* גודל טקסט קטן יותר */
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 @keyframes profilePulse {
