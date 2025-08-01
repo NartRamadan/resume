@@ -13,7 +13,7 @@ function createParticles() {
         return;
     }
 
-    // המתן 8 שניות לפני יצירת בועות
+    // המתן לפני יצירת בועות
     setTimeout(() => {
         console.log("Starting to create particles after delay...");
 
